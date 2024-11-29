@@ -24,7 +24,7 @@ import (
 //go:embed index.html
 var hlsIndex []byte
 
-//go:embed hls.min.js
+// go:embed hls.min.js
 var hlsMinJS []byte
 
 func mergePathAndQuery(path string, rawQuery string) string {
